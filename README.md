@@ -84,3 +84,161 @@ Personal blog for fashion, beauty &amp; lifestyle
   </footer>
 </body>
 </html>
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff8f5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #d98fbf;
+}
+
+/* Header */
+header {
+  background-color: #ffeef2;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+header h1 {
+  display: inline-block;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  color: #d98fbf;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #fff0f6;
+}
+
+.hero h2 {
+  font-family: 'Playfair Display', serif;
+  color: #d98fbf;
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #d98fbf;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Blog Section */
+.blog {
+  padding: 60px 20px;
+}
+
+.blog h2 {
+  text-align: center;
+  color: #d98fbf;
+  font-family: 'Playfair Display', serif;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.post {
+  background-color: #fff0f6;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 calc(33% - 20px);
+}
+
+.post img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post h3 {
+  color: #d98fbf;
+  font-family: 'Playfair Display', serif;
+  margin-top: 15px;
+}
+
+.post p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.post a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #d98fbf;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact button {
+  padding: 12px;
+  background-color: #d98fbf;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #ffeef2;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
